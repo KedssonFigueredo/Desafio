@@ -1,5 +1,5 @@
 //criando um função
-function inverter(frase){
+function inverterFrase(frase){
 //usando o método split para separar e adicionar as palavas em um array passando como delimitador um espaço
   frase = frase.split(" ");
   //usando o método reverse para inverter a ordem do array
@@ -8,4 +8,5 @@ function inverter(frase){
   return frase.join(" ");
 }
 
-console.log(inverter("Hello, World! OpenAi is amazing"));
+//Exemplo pratico:
+console.log(inverterFrase("Hello, World! OpenAi is amazing"));
